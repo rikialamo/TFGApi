@@ -1,0 +1,5 @@
+com\vedruna\tfg\GestionHorario\UsuarioServiceTest.class
+com\vedruna\tfg\GestionHorario\AdminServiceTest.class
+com\vedruna\tfg\GestionHorario\UsuarioControllerTest.class
+com\vedruna\tfg\GestionHorario\AdminControllerTest.class
+com\vedruna\tfg\GestionHorario\UsuarioPasswordServiceTest.class
