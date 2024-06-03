@@ -24,7 +24,7 @@
 ## Introducción
 
 ### Descripción del Proyecto
-El proyecto "Gestión Horari" es una aplicación diseñada para gestionar y registrar los horarios de entrada y salida de los empleados en una organización. Este sistema permite a los administradores supervisar la asistencia y tener un mejor control de los empleados.
+El proyecto "Gestión Horario" es una aplicación diseñada para gestionar y registrar los horarios de entrada y salida de los empleados en una organización. Este sistema permite a los administradores supervisar la asistencia y tener un mejor control de los empleados.
 
 ### Justificación
 La gestión manual de los horarios es propensa a errores y consume mucho tiempo. Este proyecto automatiza el proceso, asegurando precisión y eficiencia.
@@ -345,7 +345,7 @@ Este proyecto ha permitido explorar y aplicar múltiples tecnologías para resol
 ## Contribuciones, Agradecimientos y Referencias
 
 ### Contribuciones
-Las contribuciones son bienvenidas. Por favor, abre un issue o crea un pull request en el [repositorio del proyecto](URL_DEL_REPOSITORIO).
+Las contribuciones son bienvenidas. Por favor, abre un issue o crea un pull request en el [repositorio del proyecto](https://github.com/rikialamo/TFGApi).
 
 ### Agradecimientos
 - A mis profesores y compañeros del ciclo DAM por su apoyo y colaboración.
@@ -358,7 +358,7 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o crea un pull requ
 
 ## Licencias
 
-Este proyecto está licenciado bajo la [MIT License](URL_DE_LA_LICENCIA).
+Este proyecto está licenciado bajo la MIT License.
 
 ---
 
@@ -371,4 +371,4 @@ Para cualquier consulta o sugerencia, puedes contactarme a través de:
 
 ---
 
-¡Gracias por tu interés en el proyecto "Gestión Horaria Inteligente"!
+¡Gracias por tu interés en el proyecto "Gestión Horario"!
