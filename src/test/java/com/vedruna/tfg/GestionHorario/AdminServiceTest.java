@@ -207,7 +207,6 @@ class AdminServiceTest {
         DateDTO dateDTO = mock(DateDTO.class);
         LocalDate inicio = LocalDate.of(2024, 5, 1);
         LocalDate fin = LocalDate.of(2024, 5, 7);
-        List<Usuario> usuarios = Arrays.asList(new Usuario(), new Usuario());
 
         when(dateDTO.validarFecha(5, 1)).thenReturn(inicio);
         when(dateDTO.validarFecha(5, 7)).thenReturn(fin);

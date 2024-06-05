@@ -2,7 +2,7 @@ package com.vedruna.tfg.GestionHorario;
 
 import com.vedruna.tfg.GestionHorario.Security.DTO.LoginDTO;
 import com.vedruna.tfg.GestionHorario.webapp.controller.UsuarioController;
-import com.vedruna.tfg.GestionHorario.webapp.dto.NuevaContraseñaDTO;
+import com.vedruna.tfg.GestionHorario.webapp.dto.NuevaContrasenaDTO;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.Usuario;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.UsuarioRepository;
 import com.vedruna.tfg.GestionHorario.webapp.service.UsuarioPasswordService;
@@ -69,16 +69,16 @@ class UsuarioControllerTest {
 
     @Test
     void testActualizarContraseña() {
-        NuevaContraseñaDTO nuevaContraseñaDTO = new NuevaContraseñaDTO("john@example.com", "newpassword");
+        NuevaContrasenaDTO nuevaContrasenaDTO = new NuevaContrasenaDTO("john@example.com", "newpassword");
         Usuario usuario = new Usuario();
         usuario.setId(1L);
         usuario.setCorreo("john@example.com");
 
-        when(usuarioRepository.findByCorreo(nuevaContraseñaDTO.getCorreo())).thenReturn(usuario);
+        when(usuarioRepository.findByCorreo(nuevaContrasenaDTO.getCorreo())).thenReturn(usuario);
 
-        ResponseEntity<Void> response = usuarioController.actualizarContraseña(nuevaContraseñaDTO);
+        ResponseEntity<Void> response = usuarioController.actualizarContrasena(nuevaContrasenaDTO);
 
-        verify(usuarioPasswordService).actualizarContraseña(usuario.getId(), nuevaContraseñaDTO.getNuevacontrasena());
+        verify(usuarioPasswordService).actualizarContrasena(usuario.getId(), nuevaContrasenaDTO.getNuevacontrasena());
         assertEquals(HttpStatus.OK, response.getStatusCode());
     }
 }

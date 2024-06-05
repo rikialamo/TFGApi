@@ -12,9 +12,9 @@ public class LoginDTO {
 
     // Constructor, getters y setters
 
-    public LoginDTO(String correo, String contraseña) {
+    public LoginDTO(String correo, String contrasena) {
         this.correo = correo;
-        this.contrasena = contraseña;
+        this.contrasena = contrasena;
     }
 
 }

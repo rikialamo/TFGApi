@@ -15,12 +15,12 @@ public class UsuarioPasswordService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public void actualizarContraseña(Long usuarioId, String nuevaContraseña) {
+    public void actualizarContrasena(Long usuarioId, String nuevaContrasena) {
         Usuario usuario = usuarioRepository.findById(usuarioId)
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
 
-        String contraseñaCodificada = passwordEncoder.encode(nuevaContraseña);
-        usuario.setContraseña(contraseñaCodificada);
+        String contrasenaCodificada = passwordEncoder.encode(nuevaContrasena);
+        usuario.setContraseña(contrasenaCodificada);
         usuarioRepository.save(usuario);
     }
 }

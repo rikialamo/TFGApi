@@ -2,6 +2,7 @@ package com.vedruna.tfg.GestionHorario.webapp.persistence.repository;
 
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.Horario;
 import jakarta.transaction.Transactional;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -13,7 +14,7 @@ import org.springframework.stereotype.Repository;
 @EnableJpaRepositories
 public interface HorarioRepository extends JpaRepository<Horario, Long> {
 
-    Horario save(Horario entradaSalida);
+    @NotNull Horario save(@NotNull Horario entradaSalida);
 
     @Modifying
     @Query("DELETE FROM Horario h WHERE h.usuario.id = :id")

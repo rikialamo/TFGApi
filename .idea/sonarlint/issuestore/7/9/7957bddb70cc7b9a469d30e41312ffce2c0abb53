@@ -1,0 +1,6 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ØãŽûÿÿÿÿJ$53f415d4-fd04-4806-b583-3d3416cd65eb
+Œ
+java:S1128"jRemove this unused import 'com.vedruna.tfg.GestionHorario.Security.Exceptions.IncorrectPasswordException'.(Ë…Úíþÿÿÿÿ8ÎÐôÂþ1
+w
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿJ$3811f7dd-1ada-44cc-a9ff-925f31f9840b

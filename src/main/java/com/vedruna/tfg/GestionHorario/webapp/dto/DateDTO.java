@@ -1,5 +1,6 @@
 package com.vedruna.tfg.GestionHorario.webapp.dto;
 
+import com.vedruna.tfg.GestionHorario.Security.Exceptions.IncorrectDateException;
 import com.vedruna.tfg.GestionHorario.Security.Exceptions.IncorrectPasswordException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -19,11 +20,9 @@ public class DateDTO {
 
     public LocalDate validarFecha(int mes, int dia) {
         try {
-            // Intenta crear una fecha con los valores proporcionados
-            LocalDate localDate = LocalDate.of(LocalDate.now().getYear(), mes, dia);
-            return localDate; // La fecha es válida
+            return LocalDate.of(LocalDate.now().getYear(), mes, dia);
         } catch (java.time.DateTimeException e) {
-            throw new IncorrectPasswordException();
+            throw new IncorrectDateException();
         }
     }
 

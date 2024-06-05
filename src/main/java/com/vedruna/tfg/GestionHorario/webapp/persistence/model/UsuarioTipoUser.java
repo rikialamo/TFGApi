@@ -1,7 +1,13 @@
 package com.vedruna.tfg.GestionHorario.webapp.persistence.model;
 
 import jakarta.persistence.*;
+import lombok.*;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name = "usuario_tipo_user")
 public class UsuarioTipoUser {
@@ -18,29 +24,5 @@ public class UsuarioTipoUser {
     @JoinColumn(name = "tipo_user_id", referencedColumnName = "id")
     private TipoUser tipoUser;
 
-    // Getters and setters
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Usuario getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
-    }
-
-    public TipoUser getTipoUser() {
-        return tipoUser;
-    }
-
-    public void setTipoUser(TipoUser tipoUser) {
-        this.tipoUser = tipoUser;
-    }
 }
 

@@ -48,12 +48,9 @@ public class LoginService {
     public AuthenticationResponseDTO userLogin(LoginDTO loginDTO) {
 
         Usuario usuario = usuarioRepository.findByCorreo(loginDTO.getCorreo());
-        System.out.println(loginDTO.getCorreo());
-        System.out.println(loginDTO.getContrasena());
 
         if (passwordEncoder.matches(loginDTO.getContrasena(), usuario.getContraseña())) {
 
-            //token
             return new AuthenticationResponseDTO("", usuario);
 
         } else {

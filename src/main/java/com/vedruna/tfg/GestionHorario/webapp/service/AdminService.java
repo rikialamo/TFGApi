@@ -40,11 +40,6 @@ public class AdminService {
     private PasswordEncoder passwordEncoder;
 
     public Usuario crearUsuario(UsuarioDTO usuarioDTO) {
-
-        System.out.println(usuarioDTO.getNombre());
-        System.out.println(usuarioDTO.getCorreo());
-        System.out.println(usuarioDTO.getContrasena());
-
         Usuario usuario = new Usuario();
         usuario.setNombre(usuarioDTO.getNombre());
         usuario.setCorreo(usuarioDTO.getCorreo());
@@ -107,7 +102,6 @@ public class AdminService {
         if(usuario == null){
             throw new UserNotFoundException();
         }
-        System.out.println(usuario.getId());
 
         usuarioTipoUserRepository.deleteById(usuarioTipoUserRepository.findByUsuarioId(usuario.getId()).getId());
 

@@ -1,9 +1,16 @@
 package com.vedruna.tfg.GestionHorario.webapp.persistence.model;
 
 import jakarta.persistence.*;
+import lombok.*;
+
 import java.util.HashSet;
 import java.util.Set;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 public class TipoUser {
 
@@ -12,23 +19,5 @@ public class TipoUser {
     private Long id;
 
     private String tipo;
-
-    // getters y setters
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
 
 }

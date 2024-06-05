@@ -2,7 +2,7 @@ package com.vedruna.tfg.GestionHorario.webapp.controller;
 
 
 import com.vedruna.tfg.GestionHorario.Security.DTO.LoginDTO;
-import com.vedruna.tfg.GestionHorario.webapp.dto.NuevaContraseñaDTO;
+import com.vedruna.tfg.GestionHorario.webapp.dto.NuevaContrasenaDTO;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.Usuario;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.UsuarioRepository;
 import com.vedruna.tfg.GestionHorario.webapp.service.UsuarioPasswordService;
@@ -40,9 +40,9 @@ public class UsuarioController {
     }
 
     @PutMapping("/actualizarContrasena")
-    public ResponseEntity<Void> actualizarContraseña(@RequestBody NuevaContraseñaDTO NuevaContraseñaDTO) {
-        Usuario usuario = usuarioRepository.findByCorreo(NuevaContraseñaDTO.getCorreo());
-        usuarioPasswordService.actualizarContraseña(usuario.getId(), NuevaContraseñaDTO.getNuevacontrasena());
+    public ResponseEntity<Void> actualizarContrasena(@RequestBody NuevaContrasenaDTO nuevaContrasenaDTO) {
+        Usuario usuario = usuarioRepository.findByCorreo(nuevaContrasenaDTO.getCorreo());
+        usuarioPasswordService.actualizarContrasena(usuario.getId(), nuevaContrasenaDTO.getNuevacontrasena());
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

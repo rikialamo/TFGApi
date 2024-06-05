@@ -5,14 +5,14 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class NuevaContraseñaDTO {
+public class NuevaContrasenaDTO {
 
     private String correo;
     private String nuevacontrasena;
 
     // Constructor, getters y setters
 
-    public NuevaContraseñaDTO(String correo, String nuevacontrasena) {
+    public NuevaContrasenaDTO(String correo, String nuevacontrasena) {
         this.correo = correo;
         this.nuevacontrasena = nuevacontrasena;
     }

@@ -34,32 +34,32 @@ class UsuarioPasswordServiceTest {
     @Test
     void testActualizarContraseña() {
         Long usuarioId = 1L;
-        String nuevaContraseña = "nuevaContraseña";
-        String contraseñaCodificada = "contraseñaCodificada";
+        String nuevaContrasena = "nuevaContraseña";
+        String contrasenaCodificada = "contraseñaCodificada";
 
         Usuario usuario = new Usuario();
         usuario.setId(usuarioId);
         usuario.setContraseña("contraseñaAntigua");
 
         when(usuarioRepository.findById(usuarioId)).thenReturn(Optional.of(usuario));
-        when(passwordEncoder.encode(nuevaContraseña)).thenReturn(contraseñaCodificada);
+        when(passwordEncoder.encode(nuevaContrasena)).thenReturn(contrasenaCodificada);
 
-        usuarioPasswordService.actualizarContraseña(usuarioId, nuevaContraseña);
+        usuarioPasswordService.actualizarContrasena(usuarioId, nuevaContrasena);
 
-        verify(passwordEncoder).encode(nuevaContraseña);
-        assertEquals(contraseñaCodificada, usuario.getContraseña());
+        verify(passwordEncoder).encode(nuevaContrasena);
+        assertEquals(contrasenaCodificada, usuario.getContraseña());
         verify(usuarioRepository).save(usuario);
     }
 
     @Test
     void testActualizarContraseñaUsuarioNoEncontrado() {
         Long usuarioId = 1L;
-        String nuevaContraseña = "nuevaContraseña";
+        String nuevaContrasena = "nuevaContraseña";
 
         when(usuarioRepository.findById(usuarioId)).thenReturn(Optional.empty());
 
         RuntimeException exception = assertThrows(RuntimeException.class, () -> {
-            usuarioPasswordService.actualizarContraseña(usuarioId, nuevaContraseña);
+            usuarioPasswordService.actualizarContrasena(usuarioId, nuevaContrasena);
         });
 
         assertEquals("Usuario no encontrado", exception.getMessage());
