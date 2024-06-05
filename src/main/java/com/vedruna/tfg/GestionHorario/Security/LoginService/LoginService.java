@@ -34,7 +34,7 @@ public class LoginService {
             if (passwordEncoder.matches(loginDTO.getContrasena(), usuario.getContraseña())) {
 
                 //token
-                return new AuthenticationResponseDTO("", usuario);
+                return new AuthenticationResponseDTO("");
 
             } else {
                 throw new IncorrectPasswordException();
@@ -51,7 +51,7 @@ public class LoginService {
 
         if (passwordEncoder.matches(loginDTO.getContrasena(), usuario.getContraseña())) {
 
-            return new AuthenticationResponseDTO("", usuario);
+            return new AuthenticationResponseDTO("");
 
         } else {
             throw new IncorrectPasswordException();

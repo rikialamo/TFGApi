@@ -1,2 +1,4 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿï›üÿÿÿÿJ$07c1308d-ddec-4382-abb7-4b092f7b0a25
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿï›üÿÿÿÿJ$de38f6d1-7c14-4b65-8445-bca46b0ed579
+Ÿ
+java:S1128"\Remove this unused import 'com.vedruna.tfg.GestionHorario.webapp.persistence.model.Usuario'.(„¨×ğ8¡ş†Êş1J$f467955e-7048-47b9-8896-52637f4411f5

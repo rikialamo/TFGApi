@@ -51,8 +51,6 @@ bsrc/main/java/com/vedruna/tfg/GestionHorario/webapp/persistence/repository/Tipo
 isrc/main/java/com/vedruna/tfg/GestionHorario/webapp/persistence/repository/UsuarioTipoUserRepository.java,d\1\d18514bd5ab289e625dbefcabdfdd20ce9b45cdd
 t
 Dsrc/main/java/com/vedruna/tfg/GestionHorario/webapp/dto/DateDTO.java,7\9\7957bddb70cc7b9a469d30e41312ffce2c0abb53
-Ä
-Psrc/main/java/com/vedruna/tfg/GestionHorario/webapp/dto/NuevaContrase√±aDTO.java,d\6\d6cfd5add847da63ab531ed2278fc506dccd99c6
 
 Osrc/main/java/com/vedruna/tfg/GestionHorario/webapp/dto/NuevaContrasenaDTO.java,8\d\8d6668cff49520b9b4bb962cbc3e79a7f35beaba
 w
@@ -67,3 +65,5 @@ u
 Esrc/test/java/com/vedruna/tfg/GestionHorario/AdminControllerTest.java,b\f\bfbef5dca550635afa2a0257a04df645af1d4a3e
 |
 Lsrc/test/java/com/vedruna/tfg/GestionHorario/UsuarioPasswordServiceTest.java,7\d\7dc20bcef4c3c862e6d1f4f465f85c1c6783cc5e
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
