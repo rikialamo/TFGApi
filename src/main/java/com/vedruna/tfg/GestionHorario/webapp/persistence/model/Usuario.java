@@ -26,7 +26,5 @@ public class Usuario {
 
     private String contraseña;
 
-    @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
-    private List<UsuarioTipoUser> usuarioTipoUser;
 
 }

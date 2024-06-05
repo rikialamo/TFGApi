@@ -1,7 +1,9 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÚş¨8™×æÂş1J$f223e8c7-5d39-44b5-b15d-477176dce02d
-	java:S116"VRename this field "contraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëôŒ¦ÿÿÿÿÿ8š×æÂş1J$e67b3dd0-06a1-4aec-9e5e-5f2021ff598d
-J
-java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8‚ŞŞÉş1
-L
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8‚ŞŞÉş1
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÚş¨8™×æÂş1J$c385108b-dac5-46d6-b91f-7334a4a78e6c
+	java:S116"VRename this field "contraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëôŒ¦ÿÿÿÿÿ8š×æÂş1J$7a5155c4-574d-41ca-8cc6-e3485d1579e5
+p
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8‚ŞŞÉş1J$ab0862cd-2fd3-43f9-acc0-c3f4e192f217
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¬ĞÍş1J$06ed8b8c-2d28-4b68-b461-091617a7675b
+r
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8‚ŞŞÉş1J$7d9b852f-9919-4e72-aa00-46b03d2f6011

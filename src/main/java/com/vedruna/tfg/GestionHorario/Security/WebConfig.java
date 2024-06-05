@@ -16,7 +16,7 @@ public class WebConfig {
             public void addCorsMappings(@NotNull CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins("http://localhost:4200", "https://rikialamo.github.io/TFGAngular")
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");;
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
             }
         };
     }
