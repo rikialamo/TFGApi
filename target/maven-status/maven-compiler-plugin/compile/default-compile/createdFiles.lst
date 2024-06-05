@@ -7,7 +7,6 @@ com\vedruna\tfg\GestionHorario\webapp\persistence\model\UsuarioTipoUser.class
 com\vedruna\tfg\GestionHorario\Security\SecurityConfig.class
 com\vedruna\tfg\GestionHorario\webapp\persistence\repository\TipoUserRepository.class
 com\vedruna\tfg\GestionHorario\webapp\persistence\model\TipoDato.class
-com\vedruna\tfg\GestionHorario\webapp\dto\NuevaContraseñaDTO.class
 com\vedruna\tfg\GestionHorario\webapp\persistence\model\TipoUser.class
 com\vedruna\tfg\GestionHorario\webapp\service\UsuarioService.class
 com\vedruna\tfg\GestionHorario\Security\DTO\AuthenticationResponseDTO.class
