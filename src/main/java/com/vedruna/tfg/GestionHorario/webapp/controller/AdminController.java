@@ -64,7 +64,7 @@ public class AdminController {
 
 
     @PostMapping("/sin-fichaje-semana-anterior")
-    public List<Usuario> getUsuariosSinFichar(@RequestBody DateDTO dateDTO) {
-        return adminService.getUsuariosSinFichar(dateDTO);
+    public ResponseEntity<List<Usuario>> getUsuariosSinFichar(@RequestBody DateDTO dateDTO) {
+        return ResponseEntity.ok(adminService.getUsuariosSinFichar(dateDTO));
     }
 }

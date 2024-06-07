@@ -142,9 +142,10 @@ class AdminControllerTest {
 
         when(adminService.getUsuariosSinFichar(dateDTO)).thenReturn(usuarios);
 
-        List<Usuario> result = adminController.getUsuariosSinFichar(dateDTO);
+        ResponseEntity<List<Usuario>> result = adminController.getUsuariosSinFichar(dateDTO);
 
-        assertNotNull(result);
-        assertEquals(2, result.size());
+        assertEquals(HttpStatus.OK, result.getStatusCode());
+        assertNotNull(result.getBody());
+        assertEquals(2, result.getBody().size());
     }
 }

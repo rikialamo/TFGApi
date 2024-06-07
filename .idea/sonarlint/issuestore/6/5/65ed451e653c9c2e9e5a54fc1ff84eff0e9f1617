@@ -1,6 +1,6 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ùğé
-l
-java:S1128"QRemove this unused import 'com.vedruna.tfg.GestionHorario.webapp.dto.UsuarioDTO'.(ùËˆòúÿÿÿÿ
-m
-java:S1128"WRemove this unused import 'com.vedruna.tfg.GestionHorario.webapp.service.AdminService'.(ŸËÇ
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ùğéJ$d039ff6f-deca-428d-9c1d-2c39efa31051
+’
+java:S1128"QRemove this unused import 'com.vedruna.tfg.GestionHorario.webapp.dto.UsuarioDTO'.(ùËˆòúÿÿÿÿJ$e3668cda-1dda-4ac5-8699-7416a19f2fbb
+“
+java:S1128"WRemove this unused import 'com.vedruna.tfg.GestionHorario.webapp.service.AdminService'.(ŸËÇJ$538dc0af-cb3f-4cd4-a381-18e0b2cc30d9
