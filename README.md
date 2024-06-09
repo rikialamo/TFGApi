@@ -47,11 +47,10 @@ La motivación detrás de este proyecto es mejorar la productividad y eficiencia
 - Obtención de los empleados con faltas
 
 ### Tecnologías Utilizadas
-- **Backend**: Spring Boot, JPA, Hibernate
+- **Backend**: Spring Boot, JPA
 - **Base de Datos**: MySQL
 - **Seguridad**: Spring Security
 - **Testing**: JUnit, Mockito
-- **Frontend**: Figma (prototipo de interfaz)
 - **Herramientas**: Maven, Git
 
 ---
@@ -321,12 +320,6 @@ La motivación detrás de este proyecto es mejorar la productividad y eficiencia
 ]
 ```
 
-
----
-
-## Documentación
-
-Para una documentación más detallada de la API, visita [Documentación API](URL_DE_TU_DOCUMENTACION).
 
 ---
 
