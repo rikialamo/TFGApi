@@ -321,13 +321,6 @@ Para solucionar este problema creé la aplicación de Gestión horario, una apli
 ]
 ```
 
-
----
-
-## Interfaz de Usuario en Figma
-
-Puedes visualizar el prototipo de la interfaz de usuario en Figma [aquí](URL_DE_TU_FIGMA).
-
 ---
 
 ## Conclusión
