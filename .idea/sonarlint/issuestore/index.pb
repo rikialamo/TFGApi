@@ -45,8 +45,6 @@ Zsrc/main/java/com/vedruna/tfg/GestionHorario/webapp/persistence/model/UsuarioTi
 Msrc/main/java/com/vedruna/tfg/GestionHorario/webapp/service/AdminService.java,b\c\bc3c0135994d2d38c90f6d31c376385c89925282
 ‘
 asrc/main/java/com/vedruna/tfg/GestionHorario/webapp/persistence/repository/HorarioRepository.java,8\6\86abcc4324a23ed34e9391876f4197fccd505624
-’
-bsrc/main/java/com/vedruna/tfg/GestionHorario/webapp/persistence/repository/TipoUserRepository.java,3\3\33cf7cade5ea143dee607e6b821d6bd720ef25f6
 ™
 isrc/main/java/com/vedruna/tfg/GestionHorario/webapp/persistence/repository/UsuarioTipoUserRepository.java,d\1\d18514bd5ab289e625dbefcabdfdd20ce9b45cdd
 t

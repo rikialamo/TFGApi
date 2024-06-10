@@ -26,16 +26,17 @@
 ### Descripción del Proyecto
 El proyecto "Gestión Horario" es una aplicación diseñada para gestionar y registrar los horarios de entrada y salida de los empleados en una organización. Este sistema permite a los administradores supervisar la asistencia y tener un mejor control de los empleados.
 
-### Justificación
-La gestión manual de los horarios es propensa a errores y consume mucho tiempo. Este proyecto automatiza el proceso, asegurando precisión y eficiencia.
+### Justificación y motivación
+En la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales hubo modificaciones con respecto al tratamiento de los datos de los empleados a la hora de controlar el cumplimiento de las obligaciones laborales, entre estás modificaciones se encuentran los principios generales del tratamiento de datos, eso junto con el artículo 87 deja implícito que deben usarse métodos poco invasivos. Esto, que puede parecer un tema menor y bastante lógico, afectó a varias empresas de diferentes sectores debido al común uso de los lectores de huellas para confirmar las entradas y salidas de los empleados. A día de hoy los inspectores están dando avisos o directamente poniendo multas a las PYMEs que usan este dispositivo y están teniendo que retirarlo. Buscando alternativas encuentran diferentes soluciones bastante costosas ya que tienen un gran número de funcionalidades que ellos no usarán además de ser un gran costo para la empresa.
+
+Para solucionar este problema creé la aplicación de Gestión horario, una aplicación donde los empresarios podrán gestionar fácilmente a sus empleados y no perderán el tiempo con funcionalidades más allá de lo que necesitan.
+
 
 ### Objetivos
 - Automatizar el registro de entradas y salidas de los empleados.
 - Facilitar la supervisión de la asistencia.
 - Proporcionar una interfaz amigable y accesible para todos los usuarios.
 
-### Motivación
-La motivación detrás de este proyecto es mejorar la productividad y eficiencia en la gestión de horarios en las empresas, aprovechando la tecnología para reducir errores y optimizar procesos.
 
 ---
 
@@ -338,7 +339,7 @@ Puedes visualizar el prototipo de la interfaz de usuario en Figma [aquí](URL_DE
 
 ## Conclusión
 
-Este proyecto ha permitido explorar y aplicar múltiples tecnologías para resolver un problema práctico en la gestión horaria. La automatización de este proceso no solo mejora la precisión y eficiencia, sino que también facilita la supervisión y administración de los empleados en cualquier organización.
+Este proyecto ha permitido explorar y aplicar múltiples tecnologías para resolver un problema práctico en la gestión horaria de las empresas. La automatización de este proceso no solo mejora la precisión y eficiencia, sino que también facilita la supervisión y administración de los empleados en cualquier organización.
 
 ---
 

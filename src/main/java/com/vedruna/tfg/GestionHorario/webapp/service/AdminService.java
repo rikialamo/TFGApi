@@ -8,13 +8,11 @@ import com.vedruna.tfg.GestionHorario.webapp.persistence.model.TipoUser;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.Usuario;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.UsuarioTipoUser;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.HorarioRepository;
-import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.TipoUserRepository;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.UsuarioRepository;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.UsuarioTipoUserRepository;
 import jakarta.transaction.Transactional;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -26,9 +24,6 @@ public class AdminService {
 
     @Autowired
     private UsuarioRepository usuarioRepository;
-
-    @Autowired
-    private TipoUserRepository tipoUserRepository;
 
     @Autowired
     private UsuarioTipoUserRepository usuarioTipoUserRepository;

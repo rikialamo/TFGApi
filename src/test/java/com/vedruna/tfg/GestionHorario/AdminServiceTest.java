@@ -4,11 +4,9 @@ import com.vedruna.tfg.GestionHorario.Security.DTO.LoginDTO;
 import com.vedruna.tfg.GestionHorario.Security.Exceptions.UserNotFoundException;
 import com.vedruna.tfg.GestionHorario.webapp.dto.DateDTO;
 import com.vedruna.tfg.GestionHorario.webapp.dto.UsuarioDTO;
-import com.vedruna.tfg.GestionHorario.webapp.persistence.model.TipoUser;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.Usuario;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.model.UsuarioTipoUser;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.HorarioRepository;
-import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.TipoUserRepository;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.UsuarioRepository;
 import com.vedruna.tfg.GestionHorario.webapp.persistence.repository.UsuarioTipoUserRepository;
 import com.vedruna.tfg.GestionHorario.webapp.service.AdminService;
@@ -22,9 +20,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -33,9 +29,6 @@ class AdminServiceTest {
 
     @Mock
     private UsuarioRepository usuarioRepository;
-
-    @Mock
-    private TipoUserRepository tipoUserRepository;
 
     @Mock
     private UsuarioTipoUserRepository usuarioTipoUserRepository;
