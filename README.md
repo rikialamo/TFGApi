@@ -48,11 +48,10 @@ Para solucionar este problema creé la aplicación de Gestión horario, una apli
 - Obtención de los empleados con faltas
 
 ### Tecnologías Utilizadas
-- **Backend**: Spring Boot, JPA, Hibernate
+- **Backend**: Spring Boot, JPA
 - **Base de Datos**: MySQL
 - **Seguridad**: Spring Security
 - **Testing**: JUnit, Mockito
-- **Frontend**: Figma (prototipo de interfaz)
 - **Herramientas**: Maven, Git
 
 ---
@@ -322,12 +321,6 @@ Para solucionar este problema creé la aplicación de Gestión horario, una apli
 ]
 ```
 
-
----
-
-## Documentación
-
-Para una documentación más detallada de la API, visita [Documentación API](URL_DE_TU_DOCUMENTACION).
 
 ---
 
